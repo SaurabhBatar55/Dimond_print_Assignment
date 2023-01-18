@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIAMOND PRINT </title>
+    <style>
+        h1{
+            font-size: xx-large;
+            text-align: center;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Diamond Print Assignment</h1>
+
+        <p></p>
+    </div>
+
+    <script type="text/javascript">
+        
+        for(var i = 0; i < 5; i++) {
+            var star = "";
+            
+        for(var j = 5; j > i; j--) {
+            star += " ";
+        }   
+        for(var k = 0; k <= i; k++) {
+            star += "*";
+        } 
+        for(var l = 1; l <= i; l++) {
+            star += "*";
+        }
+        console.log(star);
+    }
+    for(var i = 5; i >= 0; i--) {
+        var star = "";
+     
+    for(var j = 5; j > i; j-- ) {
+        star += " ";
+    }
+    for(var k = 0; k <= i; k++) {
+        star += "*"; 
+    }
+    for(var l = 1; l <= i; l++) {
+        star += "*";
+    }
+    console.log(star);
+ }
+
+ 
+ document.write("<h1>Hello World</h1>")
+
+    </script>
+</body>
+</html>
